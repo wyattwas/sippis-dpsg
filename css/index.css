@@ -1,0 +1,16 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+
+    a {
+        color: #007bff;
+    }
+}

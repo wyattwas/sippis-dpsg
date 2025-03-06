@@ -352,3 +352,10 @@ textarea {
 .content {
   margin: 10px;
 }
+
+iframe {
+  width: 100%;
+  max-width: 425px;
+  height: 350px;
+  border: none;
+}

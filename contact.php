@@ -58,9 +58,7 @@
             Wiesbadener Straße 21-31<br>
             65510 Idstein
             <br>
-            <iframe width="425" height="350"
-                    src="https://www.openstreetmap.org/export/embed.html?bbox=8.2647442817688%2C50.21820046084595%2C8.268284797668459%2C50.21970559126617&amp;layer=mapnik&amp;marker=50.21895303199209%2C8.266514539718628"
-                    style="border: none"></iframe>
+            <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=8.2647442817688%2C50.21820046084595%2C8.268284797668459%2C50.21970559126617&amp;layer=mapnik&amp;marker=50.21895303199209%2C8.266514539718628"></iframe>
             <br>
             <small>
                 <a href="https://www.openstreetmap.org/?mlat=50.218953&amp;mlon=8.266515#map=19/50.218953/8.266515">View

@@ -49,6 +49,9 @@
             E-Mail: <a href="mailto:kontakt@sippis-dpsg.de">kontakt@sippis-dpsg.de</a><br>
             Telefon: <a href="tel:+4917655233953">+49 176 55233953</a>
         </p>
+        <p>
+            <img src="img/Rover-auf-großer-Fahrt.png" alt="Rover auf großer Fahrt" style="width: 100%; max-width: 425px;">
+        </p>
     </div>
 </div>
 </body>

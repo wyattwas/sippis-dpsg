@@ -348,3 +348,7 @@ textarea {
 .menu-toggle--open .menu-toggle__bar3 {
   transform: translate(0, -7px) rotate(45deg);
 }
+
+.content {
+  margin: 10px;
+}

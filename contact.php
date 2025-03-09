@@ -65,8 +65,8 @@
             <br>
             <small style="padding: 3px">
                 <a href="https://www.openstreetmap.org/?mlat=50.218953&amp;mlon=8.266515#map=19/50.218953/8.266515"
-                   style="text-decoration: none; border-radius: 8px; background-color: #007bff; text-align: center; color: white; width: 100%; display: block; font-size: 1.125rem; font-weight: 500; padding: 0.75rem 1.5rem">View
-                    Larger Map</a>
+                   style="text-decoration: none; border-radius: 8px; background-color: #007bff; text-align: center; color: white; width: 100%; display: block; font-size: 1.125rem; font-weight: 500; padding: 0.75rem 1.5rem">Größere
+                    Karte zeigen</a>
             </small>
         </p>
     </div>

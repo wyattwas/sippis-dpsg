@@ -355,7 +355,6 @@ textarea {
 
 iframe {
   width: 100%;
-  max-width: 425px;
   height: 350px;
   border: none;
 }

@@ -72,12 +72,13 @@
         </p>
         <p>
             <a href="https://www.instagram.com/p/DG8yxo9OhE1/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
-               style="text-decoration: none; border-radius: 8px; background-color: #007bff; text-align: center; color: white; width: 100%; display: block; font-size: 1.125rem; font-weight: 500; padding: 0.75rem 1.5rem;">Instagram
+               style="text-decoration: none; border-radius: 8px; background-color: #007bff; text-align: center; color: white; width: 100%; display: block; font-size: 1.125rem; font-weight: 500; padding: 0.75rem 1.5rem">Instagram
                 Post</a>
         </p>
         <div style="display: flex; flex-direction: column; max-width: inherit">
             <img src="https://dpsg-idstein.de/images/Rover/IMG_20250308_160408973.jpg"
-                 alt="Drei Sippis bringen Grünschnitt weg" style="border-radius: 8px; padding: 3px; max-width: 450px; width: 100%"/>
+                 alt="Drei Sippis bringen Grünschnitt weg"
+                 style="border-radius: 8px; padding: 3px; max-width: 450px; width: 100%"/>
             <div style="display: flex; flex-direction: row; max-width: 450px">
                 <img src="https://dpsg-idstein.de/images/Rover/IMG_20250308_153946165.jpg" alt="Ein Sippi zägt Holz"
                      style="border-radius: 8px; width: 50%; padding: 3px"/>

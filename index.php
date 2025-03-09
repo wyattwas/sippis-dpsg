@@ -77,12 +77,12 @@
         </p>
         <div style="display: flex; flex-direction: column; max-width: inherit">
             <img src="https://dpsg-idstein.de/images/Rover/IMG_20250308_160408973.jpg"
-                 alt="Drei Sippis bringen Grünschnitt weg" style="border-radius: 8px; margin: 3px"/>
-            <div style="display: flex; flex-direction: row">
+                 alt="Drei Sippis bringen Grünschnitt weg" style="border-radius: 8px; padding: 3px; max-width: 450px; width: 100%"/>
+            <div style="display: flex; flex-direction: row; max-width: 450px">
                 <img src="https://dpsg-idstein.de/images/Rover/IMG_20250308_153946165.jpg" alt="Ein Sippi zägt Holz"
-                     style="border-radius: 8px; width: 50%; margin: 3px"/>
+                     style="border-radius: 8px; width: 50%; padding: 3px"/>
                 <img src="https://dpsg-idstein.de/images/Rover/IMG_20250308_160344226.jpg"
-                     alt="Unser vollbeladener Stammesanhänger" style="border-radius: 8px; width: 50%; margin: 3px"/>
+                     alt="Unser vollbeladener Stammesanhänger" style="border-radius: 8px; width: 50%; padding: 3px"/>
             </div>
         </div>
     </div>

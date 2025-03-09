@@ -40,8 +40,8 @@
     </div>
 </nav>
 
-<div class="content">
-    <div>
+<div class="content" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+    <div style="max-width: 500px;">
         <p>
             Wir sind die Roverrunde "Sippis", des DPSG Stamms Sankt Martin Idstein.
             Zusammen sind wir 7 Rover.<br>

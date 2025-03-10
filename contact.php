@@ -60,7 +60,7 @@
             65510 Idstein
         </p>
         <p>
-            <iframe class="border-radius-8 gray-border w-100"
+            <iframe class="border-radius-8 gray-border w-100 height-700"
                     src="https://www.openstreetmap.org/export/embed.html?bbox=8.2647442817688%2C50.21820046084595%2C8.268284797668459%2C50.21970559126617&amp;layer=mapnik&amp;marker=50.21895303199209%2C8.266514539718628"></iframe>
             <br>
             <small class="padding-3">

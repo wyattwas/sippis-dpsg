@@ -395,10 +395,10 @@ textarea {
     }
 }
 
-.width-100 {
-    width: 100%;
-}
-
 .padding-3 {
     padding: 3px;
+}
+
+.height-700 {
+    height: 700px;
 }

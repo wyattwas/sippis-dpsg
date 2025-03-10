@@ -40,8 +40,8 @@
     </div>
 </nav>
 
-<div class="content" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-    <div style="max-width: 500px;">
+<div class="content">
+    <div class="page">
         <p>
             Wir sind die Roverrunde "Sippis", des DPSG Stamms Sankt Martin Idstein.
             Zusammen sind wir 7 Rover.<br>
@@ -50,9 +50,9 @@
         </p>
         <p>
             Erreichen könnt ihr uns hier:<br>
-            E-Mail: <a style="color: #007bff" href="mailto:kontakt@sippis-dpsg.de">kontakt@sippis-dpsg.de</a><br>
-            Telefon: <a style="color: #007bff" href="tel:+4917655233953">+49 176 55233953</a><br>
-            Instagram: <a style="color: #007bff" href="https://www.instagram.com/sippis_idstein">sippis_idstein</a><br>
+            E-Mail: <a href="mailto:kontakt@sippis-dpsg.de">kontakt@sippis-dpsg.de</a><br>
+            Telefon: <a href="tel:+4917655233953">+49 176 55233953</a><br>
+            Instagram: <a href="https://www.instagram.com/sippis_idstein">sippis_idstein</a><br>
         </p>
         <p>
             DPSG Stamm Sankt Martin Idstein<br>
@@ -60,12 +60,11 @@
             65510 Idstein
         </p>
         <p>
-            <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=8.2647442817688%2C50.21820046084595%2C8.268284797668459%2C50.21970559126617&amp;layer=mapnik&amp;marker=50.21895303199209%2C8.266514539718628"
-                    style="border-radius: 8px; border: 1px solid  #bdbdbd"></iframe>
+            <iframe class="border-radius-8 gray-border w-100"
+                    src="https://www.openstreetmap.org/export/embed.html?bbox=8.2647442817688%2C50.21820046084595%2C8.268284797668459%2C50.21970559126617&amp;layer=mapnik&amp;marker=50.21895303199209%2C8.266514539718628"></iframe>
             <br>
-            <small style="padding: 3px">
-                <a href="https://www.openstreetmap.org/?mlat=50.218953&amp;mlon=8.266515#map=19/50.218953/8.266515"
-                   style="text-decoration: none; border-radius: 8px; background-color: #007bff; text-align: center; color: white; width: 100%; display: block; font-size: 1.125rem; font-weight: 500; padding: 0.75rem 1.5rem">Größere
+            <small class="padding-3">
+                <a class="link-button text-white" href="https://www.openstreetmap.org/?mlat=50.218953&amp;mlon=8.266515#map=19/50.218953/8.266515">Größere
                     Karte zeigen</a>
             </small>
         </p>

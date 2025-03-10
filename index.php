@@ -7,7 +7,6 @@
     <link rel="icon" type="image/png" href="img/rochen_logo-circle.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/style.css">
     <meta name="description" content="Die Roverrunde des DPSG Sankt Martin Idstein">
     <meta name="theme-color" content="#ff4d4d">
@@ -59,10 +58,10 @@
         </p>
         <p>
             <img src="img/Rover-auf-großer-Fahrt.png" alt="Rover auf großer Fahrt"
-                 style="width: 100%; max-width: 425px; border-radius: 8px; border: 1px solid #bdbdbd">
+                 class="w-100 border-radius-8 gray-border">
         </p>
     </div>
-    <div class="page page-canada">
+    <div class="page">
         <h1>Einen Schritt näher</h1>
         <p>
             Am 08.03. haben wir unseren ersten Auftrag absolviert.<br>
@@ -71,21 +70,36 @@
             Insgesamt sechs Hänger Ladungen haben wir bewegt.<br>
         </p>
         <p>
+            Wir haben einige Möglichkeiten dir mit Gartenarbeit zu helfen.<br>
+            Unser Stamm verfügt über einen Anhänger mit dem Wir ca. 4 cm³ transportieren können.<br>
+            Wir haben auch einiges an Gartenwerkzeug was wir für unsere Arbeit mitbringen können, fragt im Zweifel gerne nochmal nach.
+        </p>
+        <p>
             <a href="https://www.instagram.com/p/DG8yxo9OhE1/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
-               style="text-decoration: none; border-radius: 8px; background-color: #007bff; text-align: center; color: white; width: 100%; display: block; font-size: 1.125rem; font-weight: 500; padding: 0.75rem 1.5rem">Instagram
+               class="link-button text-white">Instagram
                 Post</a>
         </p>
-        <div style="display: flex; flex-direction: column; max-width: inherit">
+        <div>
             <img src="https://dpsg-idstein.de/images/Rover/IMG_20250308_160408973.jpg"
                  alt="Drei Sippis bringen Grünschnitt weg"
-                 style="border-radius: 8px; padding: 3px; max-width: 450px; width: 100%"/>
-            <div style="display: flex; flex-direction: row; max-width: 450px">
+                 class="border-radius-8 w-100 padding-3"/>
+            <div style="display: flex; flex-direction: row;">
                 <img src="https://dpsg-idstein.de/images/Rover/IMG_20250308_153946165.jpg" alt="Ein Sippi zägt Holz"
-                     style="border-radius: 8px; width: 50%; padding: 3px"/>
+                     class="border-radius-8 padding-3 w-50"/>
                 <img src="https://dpsg-idstein.de/images/Rover/IMG_20250308_160344226.jpg"
-                     alt="Unser vollbeladener Stammesanhänger" style="border-radius: 8px; width: 50%; padding: 3px"/>
+                     alt="Unser vollbeladener Stammesanhänger"
+                     class="border-radius-8 padding-3 w-50"/>
             </div>
         </div>
+    </div>
+    <div class="page">
+        <h1>Auch Digital</h1>
+        <p>
+            Wir sind auch digitale Helfer.<br>
+            Ob es um das Einrichten eines Druckers, oder komplexere Dinge, wie das aufsetzen eines Docker Containers
+            oder Erstellen einer Website geht.<br>
+            Frag gerne nach und wir helfen dir.
+        </p>
     </div>
 </div>
 </body>

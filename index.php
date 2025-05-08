@@ -1,6 +1,8 @@
 <?php
 require('database.php');
 
+$money_overall = 11000;
+
 $money_amount_query = "SELECT SUM(geld) as geld FROM auftrag";
 $stmt = PDO->query($money_amount_query);
 $money_amount = $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -109,10 +111,10 @@ $money_amount = $stmt->fetchAll(PDO::FETCH_ASSOC);
         </p>
     </div>
     <div class="page">
-        <h1>So viel haben wir schon gesammelt</h1>
+        <h1>So viel Geld wurde uns schon gespendet</h1>
         <p>
             <?php foreach ($money_amount as $money): ?>
-                <?= $money['geld'] ?>
+                <progress id="file" value="32" max="100"> <?= 100 / $money_overall * $money['geld'] ?> </progress>
             <?php endforeach; ?>
         </p>
     </div>

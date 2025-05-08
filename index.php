@@ -3,7 +3,7 @@ require('database.php');
 
 $money_overall = 11000;
 
-$money_amount_query = "SELECT SUM(geld) as geld FROM auftrag";
+$money_amount_query = "SELECT SUM(geld) as geld FROM auftrag WHERE status = 'erledigt'";
 $stmt = PDO->query($money_amount_query);
 $money_amount = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>

@@ -1,3 +1,10 @@
+<?php
+require('database.php');
+
+$money_amount_query = "SELECT SUM(geld) FROM auftrag";
+$stmt = PDO->query($money_amount_query);
+$money_amount = $stmt->fetchAll(PDO::FETCH_ASSOC);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -104,7 +111,7 @@
     <div class="page">
         <h1>So viel haben wir schon gesammelt</h1>
         <p>
-
+            <?= $money_amount[0] ?>
         </p>
     </div>
 </div>

@@ -114,7 +114,7 @@ $money_amount = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <h1>So viel Geld wurde uns schon gespendet</h1>
         <p>
             <?php foreach ($money_amount as $money): ?>
-                <progress id="file" value="32" max="100"> <?= 100 / $money_overall * $money['geld'] ?> </progress>
+                <progress id="file" value="<?= 100 / $money_overall * $money['geld'] ?>" max="100"> <?= $money['geld'] ?>€ </progress>
             <?php endforeach; ?>
         </p>
     </div>

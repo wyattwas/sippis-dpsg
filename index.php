@@ -111,7 +111,7 @@ $money_amount = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <div class="page">
         <h1>So viel haben wir schon gesammelt</h1>
         <p>
-            <?= $money_amount[0] ?>
+            <?= $money_amount[0][0] ?>
         </p>
     </div>
 </div>

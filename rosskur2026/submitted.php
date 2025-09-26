@@ -8,6 +8,10 @@
             padding: 0;
             font-family: sans-serif;
         }
+
+        body {
+            margin-top: 50px;
+        }
     </style>
 </head>
 <body>

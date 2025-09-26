@@ -1,0 +1,18 @@
+<?php ?>
+<html lang="de">
+<head>
+    <title>Du bist angemeldet! - Rosskur 2026</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+    Hallo <?php echo $_POST['art'] == 'rover' ? 'Rover*innen' : 'Leiter*innen';?> vom Stamm <?php echo $_POST['stamm'];?>!<br>
+    Ihr seid angemeldet zur Rosskur 2026 in Idstein. Bereitet euch auf ein spannendes Abenteuer unter dem Motto Verschwörungstheorien vor.<br>
+    Wir freuen uns auf euch!
+</body>
+</html>

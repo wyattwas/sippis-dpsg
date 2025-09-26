@@ -8,8 +8,8 @@ if (isset($_POST["submit"])) {
     $ankunft = $_POST['ankunft'];
     $anreise = $_POST['anreise'];
     $schlafen = $_POST['schlafen'];
-    $vegi  = $_POST['vegi']  ?? 0;
-    $vegan = $_POST['vegan'] ?? 0;
+    $vegi  = !empty($_POST['vegi'])  ? (int) $_POST['vegi']  : null;
+    $vegan = !empty($_POST['vegan']) ? (int) $_POST['vegan'] : null;
 
     $vorname1 = $_POST['vorname1'];
     $name1 = $_POST['nachname1'];

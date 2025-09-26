@@ -71,7 +71,7 @@ if (isset($_POST["submit"])) {
         }
 
         .text {
-            margin-top: 50px;
+            padding: 50px 0 50px 0;
         }
     </style>
 </head>

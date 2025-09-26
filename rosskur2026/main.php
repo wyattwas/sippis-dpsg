@@ -1,4 +1,33 @@
-<?php ?>
+<?php
+require('../database.php');
+
+session_start();
+
+if (isset($_POST['submit'])) {
+    $stamm = $_POST['stamm'];
+    $anzahl = $_POST['anzahl'];
+    $art = $_POST['art'];
+    $anreise = $_POST['anreise'];
+    $schlafen = $_POST['schlafen'];
+    $vegi = $_POST['vegi'];
+    $vegan = $_POST['vegan'];
+    $vorname1 = $_POST['vorname1'];
+    $name1 = $_POST['nachname1'];
+    $tel1 = $_POST['tel1'];
+    $mail1 = $_POST['mail1'];
+    $vorname2 = $_POST['vorname2'];
+    $name2 = $_POST['nachname2'];
+    $tel2 = $_POST['tel2'];
+    $mail2 = $_POST['mail2'];
+
+    $stmt = PDO->query("INSERT INTO anmeldung (stamm, anzahl, art, anreise, schlafen, vegi, vegan) values ('$stamm', '$anzahl', '$art', '$anreise', '$schlafen', '$vegi', '$vegan')");
+
+    $id = PDO->query("SELECT id FROM anmeldung WHERE stamm = '$stamm'");
+    $id = $id->fetchAll(PDO::FETCH_ASSOC);
+    $stmt = PDO->query("INSERT INTO kontakt (name, vorname, telefon, email, anmeldungID) values ('$name1', '$vorname1', '$tel1', '$mail1', '$id[0]['id']')");
+    $stmt = PDO->query("INSERT INTO kontakt (name, vorname, telefon, email, anmeldungID) values ('$name2', '$vorname2', '$tel2', '$mail2', '$id[0]['id']')");
+}
+?>
 <html lang="de">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -229,7 +258,7 @@ END:VCALENDAR"
         <p>
             <a class="required">*</a> Benötigte Angaben<br>
         </p>
-        <input type="submit">
+        <input type="submit" value="Anmelden">
     </form>
 </span>
 </body>

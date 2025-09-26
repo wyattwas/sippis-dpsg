@@ -12,9 +12,9 @@ $tab = $_GET['tab'];
 </head>
 <body>
 <div class="nav">
-    <a href="#">Rosskur 2026</a>
-    <a href="#blog">Infos</a>
-    <a href="#anmelden">Anmelden</a>
+    <a href="?tab=main#">Rosskur 2026</a>
+    <a href="?tab=main#blog">Infos</a>
+    <a href="?tab=main#anmelden">Anmelden</a>
 </div>
 <?php include $tab . ".php"; ?>
 <div class="footer">

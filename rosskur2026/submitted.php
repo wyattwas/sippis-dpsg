@@ -70,13 +70,13 @@ if (isset($_POST["submit"])) {
             font-family: sans-serif;
         }
 
-        div {
+        .text {
             margin-top: 50px;
         }
     </style>
 </head>
 <body>
-<div>
+<div class="text">
     Hallo <?php echo $art == 'rover' ? 'Rover*innen' : 'Leiter*innen';?> vom Stamm <?php echo $stamm;?>!<br>
     Ihr seid angemeldet zur Rosskur 2026 in Idstein. Bereitet euch auf ein spannendes Abenteuer unter dem Motto Verschwörungstheorien vor.<br>
     Wir freuen uns auf euch!

@@ -81,6 +81,10 @@
             flex-direction: column;
             padding-top: 50px;
 
+            form {
+                width: min(90%, 500px);
+            }
+
             input {
                 width: 100%;
             }

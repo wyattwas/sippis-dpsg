@@ -39,7 +39,7 @@ if (isset($_POST["submit"])) {
     $anmeldungId = PDO->lastInsertId();
 
     $stmt = PDO->prepare("
-        INSERT INTO kontakt (name, vorname, telefon, email, anmeldungID)
+        INSERT INTO kontakt (name, vorname, telefonnummer, email, anmeldungID)
         VALUES (:name, :vorname, :telefon, :email, :anmeldungID)
     ");
     $stmt->execute([

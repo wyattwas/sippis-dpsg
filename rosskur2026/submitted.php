@@ -8,8 +8,8 @@ if (isset($_POST["submit"])) {
     $ankunft = $_POST['ankunft'];
     $anreise = $_POST['anreise'];
     $schlafen = $_POST['schlafen'];
-    $vegi = $_POST['vegi'];
-    $vegan = $_POST['vegan'];
+    $vegi  = $_POST['vegi']  ?? 0;
+    $vegan = $_POST['vegan'] ?? 0;
 
     $vorname1 = $_POST['vorname1'];
     $name1 = $_POST['nachname1'];
@@ -77,7 +77,7 @@ if (isset($_POST["submit"])) {
 </head>
 <body>
 <div>
-    Hallo <?php echo $_POST['art'] == 'rover' ? 'Rover*innen' : 'Leiter*innen';?> vom Stamm <?php echo $_POST['stamm'];?>!<br>
+    Hallo <?php echo $art == 'rover' ? 'Rover*innen' : 'Leiter*innen';?> vom Stamm <?php echo $stamm;?>!<br>
     Ihr seid angemeldet zur Rosskur 2026 in Idstein. Bereitet euch auf ein spannendes Abenteuer unter dem Motto Verschwörungstheorien vor.<br>
     Wir freuen uns auf euch!
 </div>

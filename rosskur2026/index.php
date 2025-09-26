@@ -24,7 +24,7 @@ $tab = $_GET['tab'];
         Die Informationen auf dieser Seite sind mit entsprechender Retorik gestaltet und mit Vorsicht zu genießen.
     </div>
     <div>
-        <a href="https://sippis-dpsg.de/impressum">Impressum</a>
+        <a href="https://sippis-dpsg.de/contact">Impressum</a>
         <a href="https://sippis-dspg.de">Rover Idstein</a>
         <a href="https://www.dpsg-idstein.de">DPSG Stamm Sankt Martin Idstein</a>
         <a href="mailto:kontakt@sippis-dpsg.de">Kontakt per Mail</a>

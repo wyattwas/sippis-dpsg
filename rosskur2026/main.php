@@ -223,7 +223,7 @@ END:VCALENDAR"
 </div>
 <div class="anmelden" id="anmelden">
     <h1>Anmeldung</h1>
-    <form action="index.php?tab=submitted" method="post" enctype="multipart/form-data">
+    <form action="?tab=submitted" method="post" enctype="multipart/form-data">
         <div>
             <p>
                 <label for="stamm">Stamm:<a class="required">*</a></label><br>

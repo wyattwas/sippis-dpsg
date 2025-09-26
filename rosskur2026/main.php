@@ -251,7 +251,7 @@ END:VCALENDAR"
         <p>
             <a class="required">*</a> Benötigte Angaben<br>
         </p>
-        <input type="submit" value="Anmelden">
+        <input type="submit" value="Anmelden" name="submit">
     </form>
 </span>
 </body>

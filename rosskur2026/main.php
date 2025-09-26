@@ -1,8 +1,6 @@
 <?php
 require('../database.php');
 
-session_start();
-
 if (isset($_POST['submit'])) {
     $stamm = $_POST['stamm'];
     $anzahl = $_POST['anzahl'];

@@ -2,38 +2,38 @@
 require('../database.php');
 
 if (isset($_POST["submit"])) {
-    $stamm     = $_POST['stamm'];
-    $anzahl    = $_POST['anzahl'];
-    $art       = $_POST['art'];
-    $ankunft   = $_POST['ankunft'];
-    $anreise   = $_POST['anreise'];
-    $schlafen  = $_POST['schlafen'];
-    $vegi      = $_POST['vegi'];
-    $vegan     = $_POST['vegan'];
+    $stamm = $_POST['stamm'];
+    $anzahl = $_POST['anzahl'];
+    $art = $_POST['art'];
+    $ankunft = $_POST['ankunft'];
+    $anreise = $_POST['anreise'];
+    $schlafen = $_POST['schlafen'];
+    $vegi = $_POST['vegi'];
+    $vegan = $_POST['vegan'];
 
-    $vorname1  = $_POST['vorname1'];
-    $name1     = $_POST['nachname1'];
-    $tel1      = $_POST['tele1'];
-    $mail1     = $_POST['mail1'];
+    $vorname1 = $_POST['vorname1'];
+    $name1 = $_POST['nachname1'];
+    $tel1 = $_POST['tele1'];
+    $mail1 = $_POST['mail1'];
 
-    $vorname2  = $_POST['vorname2'];
-    $name2     = $_POST['nachname2'];
-    $tel2      = $_POST['tele2'];
-    $mail2     = $_POST['mail2'];
+    $vorname2 = $_POST['vorname2'];
+    $name2 = $_POST['nachname2'];
+    $tel2 = $_POST['tele2'];
+    $mail2 = $_POST['mail2'];
 
     $stmt = PDO->prepare("
         INSERT INTO anmeldung (stamm, anzahl, art, anreise, schlafen, vegi, vegan, ankunft)
         VALUES (:stamm, :anzahl, :art, :anreise, :schlafen, :vegi, :vegan, :ankunft)
     ");
     $stmt->execute([
-        ':stamm'    => $stamm,
-        ':anzahl'   => $anzahl,
-        ':art'      => $art,
-        ':anreise'  => $anreise,
+        ':stamm' => $stamm,
+        ':anzahl' => $anzahl,
+        ':art' => $art,
+        ':anreise' => $anreise,
         ':schlafen' => $schlafen,
-        ':vegi'     => $vegi,
-        ':vegan'    => $vegan,
-        ':ankunft'  => $ankunft,
+        ':vegi' => $vegi,
+        ':vegan' => $vegan,
+        ':ankunft' => $ankunft,
     ]);
 
     $anmeldungId = PDO->lastInsertId();
@@ -43,18 +43,18 @@ if (isset($_POST["submit"])) {
         VALUES (:name, :vorname, :telefon, :email, :anmeldungID)
     ");
     $stmt->execute([
-        ':name'        => $name1,
-        ':vorname'     => $vorname1,
-        ':telefon'     => $tel1,
-        ':email'       => $mail1,
+        ':name' => $name1,
+        ':vorname' => $vorname1,
+        ':telefon' => $tel1,
+        ':email' => $mail1,
         ':anmeldungID' => $anmeldungId,
     ]);
 
     $stmt->execute([
-        ':name'        => $name2,
-        ':vorname'     => $vorname2,
-        ':telefon'     => $tel2,
-        ':email'       => $mail2,
+        ':name' => $name2,
+        ':vorname' => $vorname2,
+        ':telefon' => $tel2,
+        ':email' => $mail2,
         ':anmeldungID' => $anmeldungId,
     ]);
 }
@@ -165,9 +165,9 @@ if (isset($_POST["submit"])) {
     <a>Schluss mit der Gehirnwäsche von</a>
     <a>
         <img alt="ZDF" src="https://upload.wikimedia.org/wikipedia/commons/c/c1/ZDF_logo.svg" class="logo-svg"> & <img
-            alt="ARD"
-            src="https://upload.wikimedia.org/wikipedia/commons/1/19/ARD_Logo_2019.svg"
-            class="logo-svg">
+                alt="ARD"
+                src="https://upload.wikimedia.org/wikipedia/commons/1/19/ARD_Logo_2019.svg"
+                class="logo-svg">
     </a>
     <img src="assets/angry-emoji.png" alt="Angry Emoji Sticker" id="angry-emoji">
 </span>
@@ -178,14 +178,17 @@ if (isset($_POST["submit"])) {
             <i>Quelle: reddit.com/r/ichbin40undSchwurbler</i>
         </div>
         Hallo Leutchiens und willkommen zurück zu meinem Blog.<br>
-        Wenn ihr hier angekommen seit, habt ihr es geschafft und euch endlich entschieden nach oben zu schauen und die Augen zu öffnen.
+        Wenn ihr hier angekommen seit, habt ihr es geschafft und euch endlich entschieden nach oben zu schauen und die
+        Augen zu öffnen.
     </div>
     <div>
-        Die da oben verpassen und Gehirnwäsche mit deb Öffentlichen. Mit deren Impfungen wollen die uns gehorsam machen und die 5G Strahlung soll uns auch Impfen.
+        Die da oben verpassen und Gehirnwäsche mit deb Öffentlichen. Mit deren Impfungen wollen die uns gehorsam machen
+        und die 5G Strahlung soll uns auch Impfen.
         Mit den Chemtrails wollen die uns kaputt machen.<br>
         Die einzige Wahrheit findet ihr hier.<br>
         <div>
-            <img class="blog-img" src="https://i.redd.it/esyyj54yxiqf1.jpeg" alt="Menschengemachter Klimawandel ist fake!!!!1!!11">
+            <img class="blog-img" src="https://i.redd.it/esyyj54yxiqf1.jpeg"
+                 alt="Menschengemachter Klimawandel ist fake!!!!1!!11">
             <i>Quelle: reddit.com/r/ichbin40undSchwurbler</i>
         </div>
     </div>
@@ -218,80 +221,96 @@ END:VCALENDAR"
     </a>
 
 </div>
-<span class="anmelden" id="anmelden">
+<div class="anmelden" id="anmelden">
     <h1>Anmeldung</h1>
-    <form action="index.php?tab=submitted" method="post">
-        <p>
+    <form action="index.php?tab=submitted" method="post" enctype="multipart/form-data">
+        <div>
             <p>
-            <label for="stamm">Stamm:<a class="required">*</a></label><br>
-            <input type="text" id="stamm" name="stamm" placeholder="Stamm..." required>
-        </p>
-        <p>
-            <label for="anzahl">Anzahl:<a class="required">*</a></label><br>
-            <input type="number" id="anzahl" name="anzahl" min="1" required>
-        </p>
-        <p>
-        Als was tretet ihr an:<a class="required">*</a><br>
-        <input type="radio" id="rover" name="art" value="rover" required>
-        <label for="rover">Rover*innen</label>
-        <input type="radio" id="leiter" name="art" value="leiter">
-            <label for="leiter">Leiter*innen</label></p>
-        <p>
-        <label for="ankunft">Ankunftszeit:<a class="required">*</a></label><br>
-            <input type="time" id="ankunft" name="ankunft" required></p>
-        <p>
-        Art der Anreise:<a class="required">*</a><br>
-        <input type="radio" id="auto" name="anreise" value="auto" required>
-        <label for="auto">Auto</label>
-        <input type="radio" id="bus" name="anreise" value="bus">
-            <label for="bus">Öffis</label></p>
-        <p>
-        <label for="schlafen">Anzahl der Übernachtenden:<a class="required">*</a></label><br>
-            <input type="number" id="schlafen" name="schlafen" required></p>
-        <p>
-        <label for="vegi">Anzahl Vegetarier:</label><br>
-            <input type="number" id="vegi" name="vegi" min="0"></p>
-        <p>
-        <label for="vegan">Anzahl Veganer:</label><br>
-            <input type="number" id="vegan" name="vegan" min="0"></p>
-        </p>
-        <p>
-        <h2>Ansprechperson 1</h2>
-        <p>
-        <label for="vorname1">Vorname:<a class="required">*</a></label><br>
-            <input type="text" id="vorname1" name="vorname1" placeholder="Vorname..." required></p>
-        <p>
-        <label for="nachname1">Nachname:<a class="required">*</a></label><br>
-            <input type="text" id="nachname1" name="nachname1" placeholder="Nachname..." required></p>
-        <p>
-        <label for="tele1">Telefonnummer:<a class="required">*</a></label><br>
-        <input type="tel" id="tele1" name="tele1" placeholder="+49 123 123456789" pattern="^\+\d{1,3}\s\d{3}\s\d+$"
-               required></p>
-        <p>
-        <label for="mail1">E-Mail:<a class="required">*</a></label><br>
-            <input type="email" id="mail1" name="mail1" placeholder="E-Mail..." required></p>
-        </p>
-        <p>
-        <h2>Ansprechperson 2</h2>
-        <p>
-        <label for="vorname2">Vorname:<a class="required">*</a></label><br>
-            <input type="text" id="vorname2" name="vorname2" placeholder="Vorname..." required></p>
-        <p>
-        <label for="nachname2">Nachname:<a class="required">*</a></label><br>
-            <input type="text" id="nachname2" name="nachname2" placeholder="Nachname..." required></p>
-        <p>
-        <label for="tele2">Telefonnummer:<a class="required">*</a></label><br>
-        <input type="tel" id="tele2" name="tele2" placeholder="+49 123 123456789" pattern="^\+\d{1,3}\s\d{3}\s\d+$"
-               required></p>
-        <p>
-        <label for="mail2">E-Mail:<a class="required">*</a></label><br>
-            <input type="email" id="mail2" name="mail2" placeholder="E-Mail..." required></p>
-        </p>
+                <label for="stamm">Stamm:<a class="required">*</a></label><br>
+                <input type="text" id="stamm" name="stamm" placeholder="Stamm..." required>
+            </p>
+            <p>
+                <label for="anzahl">Anzahl:<a class="required">*</a></label><br>
+                <input type="number" id="anzahl" name="anzahl" min="1" required>
+            </p>
+            <p>
+                Als was tretet ihr an:<a class="required">*</a><br>
+                <input type="radio" id="rover" name="art" value="rover" required>
+                <label for="rover">Rover*innen</label>
+                <input type="radio" id="leiter" name="art" value="leiter">
+                <label for="leiter">Leiter*innen</label>
+            </p>
+            <p>
+                <label for="ankunft">Ankunftszeit:<a class="required">*</a></label><br>
+                <input type="time" id="ankunft" name="ankunft" required>
+            </p>
+            <p>
+                Art der Anreise:<a class="required">*</a><br>
+                <input type="radio" id="auto" name="anreise" value="auto" required>
+                <label for="auto">Auto</label>
+                <input type="radio" id="bus" name="anreise" value="bus">
+                <label for="bus">Öffis</label>
+            </p>
+            <p>
+                <label for="schlafen">Anzahl der Übernachtenden:<a class="required">*</a></label><br>
+                <input type="number" id="schlafen" name="schlafen" required>
+            </p>
+            <p>
+                <label for="vegi">Anzahl Vegetarier:</label><br>
+                <input type="number" id="vegi" name="vegi" min="0">
+            </p>
+            <p>
+                <label for="vegan">Anzahl Veganer:</label><br>
+                <input type="number" id="vegan" name="vegan" min="0">
+            </p>
+        </div>
+        <div>
+            <h2>Ansprechperson 1</h2>
+            <p>
+                <label for="vorname1">Vorname:<a class="required">*</a></label><br>
+                <input type="text" id="vorname1" name="vorname1" placeholder="Vorname..." required>
+            </p>
+            <p>
+                <label for="nachname1">Nachname:<a class="required">*</a></label><br>
+                <input type="text" id="nachname1" name="nachname1" placeholder="Nachname..." required>
+            </p>
+            <p>
+                <label for="tele1">Telefonnummer:<a class="required">*</a></label><br>
+                <input type="tel" id="tele1" name="tele1" placeholder="+49 123 123456789"
+                       pattern="^\+\d{1,3}\s\d{3}\s\d+$"
+                       required>
+            </p>
+            <p>
+                <label for="mail1">E-Mail:<a class="required">*</a></label><br>
+                <input type="email" id="mail1" name="mail1" placeholder="E-Mail..." required>
+            </p>
+        </div>
+        <div>
+            <h2>Ansprechperson 2</h2>
+            <p>
+                <label for="vorname2">Vorname:<a class="required">*</a></label><br>
+                <input type="text" id="vorname2" name="vorname2" placeholder="Vorname..." required>
+            </p>
+            <p>
+                <label for="nachname2">Nachname:<a class="required">*</a></label><br>
+                <input type="text" id="nachname2" name="nachname2" placeholder="Nachname..." required>
+            </p>
+            <p>
+                <label for="tele2">Telefonnummer:<a class="required">*</a></label><br>
+                <input type="tel" id="tele2" name="tele2" placeholder="+49 123 123456789"
+                       pattern="^\+\d{1,3}\s\d{3}\s\d+$"
+                       required>
+            </p>
+            <p>
+                <label for="mail2">E-Mail:<a class="required">*</a></label><br>
+                <input type="email" id="mail2" name="mail2" placeholder="E-Mail..." required>
+            </p>
+        </div>
         <p>
             <a class="required">*</a> Benötigte Angaben<br>
         </p>
         <input type="submit" value="Anmelden" name="submit">
     </form>
-</span>
+</div>
 </body>
 </html>

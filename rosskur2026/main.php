@@ -1,6 +1,7 @@
 <?php ?>
 <html lang="de">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rosskur 2026</title>
     <style>
         html, body {

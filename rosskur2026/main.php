@@ -19,6 +19,11 @@ if (isset($_POST['submit'])) {
     $mail2 = $_POST['mail2'];
 
     $stmt = PDO->query("INSERT INTO anmeldung (stamm, anzahl, art, anreise, schlafen, vegi, vegan) values ('$stamm', '$anzahl', '$art', '$anreise', '$schlafen', '$vegi', '$vegan')");
+
+    $id = PDO->query("SELECT id FROM anmeldung WHERE stamm = '$stamm'");
+    $id = $id->fetchAll(PDO::FETCH_ASSOC);
+    $stmt = PDO->query("INSERT INTO kontakt (name, vorname, telefon, email, anmeldungID) values ('$name1', '$vorname1', '$tel1', '$mail1', '$id[0]['id']')");
+    $stmt = PDO->query("INSERT INTO kontakt (name, vorname, telefon, email, anmeldungID) values ('$name2', '$vorname2', '$tel2', '$mail2', '$id[0]['id']')");
 }
 ?>
 <html lang="de">

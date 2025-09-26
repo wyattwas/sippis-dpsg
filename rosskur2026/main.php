@@ -163,7 +163,7 @@ END:VCALENDAR"
 </div>
 <div class="anmelden" id="anmelden">
     <h1>Anmeldung</h1>
-    <form action="submitted.php" method="post">
+    <form action="?tab=submitted" method="post">
         <div>
             <p>
                 <label for="stamm">Stamm:<a class="required">*</a></label><br>

@@ -25,7 +25,7 @@ $tab = $_GET['tab'];
     </div>
     <div>
         <a href="https://sippis-dpsg.de/contact.php">Impressum</a>
-        <a href="https://sippis-dspg.de">Rover Idstein</a>
+        <a href="https://sippis-dpsg.de">Rover Idstein</a>
         <a href="https://www.dpsg-idstein.de">DPSG Stamm Sankt Martin Idstein</a>
         <a href="mailto:kontakt@sippis-dpsg.de">Kontakt per Mail</a>
     </div>

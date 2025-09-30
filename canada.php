@@ -1,19 +1,11 @@
 <?php
+require('database.php');
 
 $money_overall = 11000;
-$money_amount = json_encode(['geld' => 2100]);
 
-$a1 = new stdClass();
-$a1->name = 'Gartenarbeit';
-$a1->beschreibung = 'Gartenarbeit';
-$a1->datum = '01.05.2025';
-
-$a2 = new stdClass();
-$a2->name = 'Geburtstagsfeier';
-$a2->beschreibung = 'Geburtstagsfeier';
-$a2->datum = '12.07.2025';
-
-$auftraege = [$a1, $a2];
+$money_amount_query = "SELECT SUM(geld) as geld FROM auftrag WHERE status = 'erledigt'";
+$stmt = PDO->query($money_amount_query);
+$money_amount = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
 <!DOCTYPE html>
 <html lang="de">
@@ -130,25 +122,6 @@ $auftraege = [$a1, $a2];
             <a href="contact.php"
                class="link-button text-white bg-danger">Kontakt Seite</a>
         </p>
-        <h2>Aufgaben bei denen wir geholfen haben</h2>
-        <table>
-            <thead>
-            <tr>
-                <th>Name</th>
-                <th>Beschreibung</th>
-                <th>Datum</th>
-            </tr>
-            </thead>
-            <tbody>
-            <?php foreach ($auftraege as $auftrag): ?>
-                <tr>
-                    <td><?= $auftrag->{'name'} ?></td>
-                    <td><?= $auftrag->{'beschreibung'} ?></td>
-                    <td><?= $auftrag->{'datum'} ?></td>
-                </tr>
-            <?php endforeach; ?>
-            </tbody>
-        </table>
     </div>
     <div class="page w-100">
         <h2>Anfrage</h2>

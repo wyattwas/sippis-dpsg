@@ -43,7 +43,7 @@ $money_amount = 1200
                 <a class="nav-link" href="canada.php">Kanada 2026</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="http://rosskur2026.de">Rosskur 2026</a>
+                <a class="nav-link" href="/rosskur2026/?tab=main">Rosskur 2026</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="contact.php">Kontakt</a>

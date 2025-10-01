@@ -37,7 +37,7 @@
                 <a class="nav-link" href="canada.php">Kanada 2026</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="http://rosskur2026.de">Rosskur 2026</a>
+                <a class="nav-link" href="/rosskur2026/?tab=main">Rosskur 2026</a>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="contact.php">Kontakt <span class="sr-only">(current)</span></a>

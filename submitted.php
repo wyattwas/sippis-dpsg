@@ -5,7 +5,7 @@ if (isset($_POST["submit"])) {
     $content = $_POST["content"];
 
     $stmt = PDO->prepare("
-        INSERT INTO auftrage (name, email, content)
+        INSERT INTO anfrage (name, email, content)
         VALUES (:name, :email, :content)
     ");
     $stmt->execute([

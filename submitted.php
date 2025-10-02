@@ -13,7 +13,7 @@ if (isset($_POST["submit"])) {
     $stmt->execute([
         ':name' => $name,
         ':email' => $mail,
-        ':conent' => $content
+        ':content' => $content
     ]);
 }
 ?>

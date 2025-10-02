@@ -3,6 +3,16 @@ if (isset($_POST["submit"])) {
     $name = $_POST["name"];
     $mail = $_POST["mail"];
     $content = $_POST["content"];
+
+    $stmt = PDO->prepare("
+        INSERT INTO auftrag (name, email, content)
+        VALUES (:name, :email, :content)
+    ");
+    $stmt->execute([
+        ':name' => $name,
+        ':email' => $mail,
+        ':conent' => $content
+    ]);
 }
 ?>
 <!DOCTYPE html>

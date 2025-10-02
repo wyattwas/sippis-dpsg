@@ -47,7 +47,7 @@ $money_amount = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <a class="nav-link" href="canada.php">Kanada 2026 <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/rosskur2026/?tab=main">Rosskur 2026</a>
+                <a class="nav-link" href="rosskur2026.php">Rosskur 2026</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="contact.php">Kontakt</a>

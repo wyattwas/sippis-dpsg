@@ -54,6 +54,8 @@
         Vom <b>11.09. bis 13.09.2026</b> dürfen wir euch in Idstein begrüßen.<br>
         Motto, Anmeldung und weitere Informationen folgen.
     </div>
+    <a href="assets/rosskur.ics"
+       class="link-button text-white bg-danger">In den Kalender eintragen</a>
 </div>
 </body>
 </html>

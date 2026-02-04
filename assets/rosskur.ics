@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Sippis//Rosskur 2026//DE
+BEGIN:VEVENT
+UID:1@sippis-dpsg.de
+DTSTAMP:20260204T120000Z
+DTSTART;TZID=Europe/Berlin:20260911T170000
+DTEND;TZID=Europe/Berlin:20260913T140000
+SUMMARY:Rosskur 2026 in Idstein
+DESCRIPTION:Die diesjährige Rosskur, ausgerichtet vom Stamm Sankt Martin in Idstein
+LOCATION:65510 Idstein
+END:VEVENT
+END:VCALENDAR

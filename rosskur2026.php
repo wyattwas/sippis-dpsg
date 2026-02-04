@@ -50,9 +50,11 @@
 <div class="content">
     <div class="page">
         <h1>Rosskur 2026</h1>
-        Wir richten die Rosskur 2026 aus.<br>
-        Vom <b>11.09. bis 13.09.2026</b> dürfen wir euch in Idstein begrüßen.<br>
-        Motto, Anmeldung und weitere Informationen folgen.
+        <p>
+            Wir richten die Rosskur 2026 aus.<br>
+            Vom <b>11.09. bis 13.09.2026</b> dürfen wir euch in Idstein begrüßen.<br>
+            Motto, Anmeldung und weitere Informationen folgen.
+        </p>
         <p>
             <a href="assets/rosskur.ics"
                class="link-button text-white bg-danger">In den Kalender eintragen</a>

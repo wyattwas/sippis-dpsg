@@ -53,9 +53,11 @@
         Wir richten die Rosskur 2026 aus.<br>
         Vom <b>11.09. bis 13.09.2026</b> dürfen wir euch in Idstein begrüßen.<br>
         Motto, Anmeldung und weitere Informationen folgen.
+        <p>
+            <a href="assets/rosskur.ics"
+               class="link-button text-white bg-danger">In den Kalender eintragen</a>
+        </p>
     </div>
-    <a href="assets/rosskur.ics"
-       class="link-button text-white bg-danger">In den Kalender eintragen</a>
 </div>
 </body>
 </html>

@@ -127,7 +127,7 @@ $money_amount = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <h2>Anfrage</h2>
         <form action="submitted.php" method="post">
             <label for="name">Name</label>
-            <input id="name" name="name" type="text" placeholder="Name" class="form-control" required><br>
+            <input id="name" name="name" type="text" placeholder="John Doe" class="form-control" required><br>
             <label for="mail">E-Mail</label>
             <input id="mail" name="mail" type="email" placeholder="john.doe@example.com" class="form-control"
                    required><br>

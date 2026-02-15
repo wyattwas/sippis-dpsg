@@ -65,6 +65,8 @@
         <p>
             <a href="assets/rosskur.ics"
                class="link-button text-white bg-danger">In den Kalender eintragen</a>
+        </p>
+        <p>
             <a href="https://www.instagram.com/sippis_idstein"
                class="link-button text-white bg-danger">Unser Instagram Profil</a>
         </p>

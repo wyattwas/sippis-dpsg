@@ -51,13 +51,22 @@
     <div class="page">
         <h1>Rosskur 2026</h1>
         <p>
-            Wir richten die Rosskur 2026 aus.<br>
+            <img src="assets/Save_the_date_Rosskur_26.png" alt="Flyer Rosskur 2026"
+                 class="w-100 border-radius-8 gray-border">
+        </p>
+        <p>
+            Nachdem wir im letzten Jahr den ersten Platz, bei der Rosskur in Eschborn geholt haben,
+            freuen wir uns, die Rosskur dieses Jahr bei uns ausrichten zu dürfen.<br>
             Vom <b>11.09. bis 13.09.2026</b> dürfen wir euch in Idstein begrüßen.<br>
-            Motto, Anmeldung und weitere Informationen folgen.
+            Unter dem Motto "Murder? Mystery!" werden wir euch in, beim Lösen eines spannenden Tatfalls durch Idsteiner
+            Land führen.<br>
+            Die Anmeldung und weitere Informationen folgen. Um nichts zu verpassen, folgt uns gerne auf Insta.
         </p>
         <p>
             <a href="assets/rosskur.ics"
                class="link-button text-white bg-danger">In den Kalender eintragen</a>
+            <a href="https://www.instagram.com/sippis_idstein"
+               class="link-button text-white bg-danger">Unser Instagram Profil</a>
         </p>
     </div>
 </div>

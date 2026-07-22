@@ -14,7 +14,7 @@ body {
         background-repeat: no-repeat;
         background-position: left bottom;
         background-attachment: fixed;
-        background-size: 5rem;
+        background-size: 50px;
         filter: invert();
         z-index: -1;
         pointer-events: none;

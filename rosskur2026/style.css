@@ -9,7 +9,8 @@ body {
     .content::before {
         content: "";
         position: absolute;
-        inset: 0;
+        left: 0;
+        bottom: 0;
         background-image: url("https://static.vecteezy.com/system/resources/previews/065/586/353/non_2x/blood-splatter-on-a-transparent-background-showcasing-vibrant-red-tones-and-chaotic-patterns-blood-splatter-on-transparent-background-free-png.png");
         background-repeat: no-repeat;
         background-position: left bottom;

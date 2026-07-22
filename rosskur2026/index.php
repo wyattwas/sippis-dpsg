@@ -71,6 +71,17 @@
                class="link-button text-white bg-danger">Unser Instagram Profil</a>
         </p>
     </div>
+    <div class="page">
+        <h1>Informationen an alle Kriminalpolizisten</h1>
+        <p>
+            Die Ermittlungen werden <b>am 11.09.2026 ab 16:00 Uhr</b> aufgenommen. Ihr könnt mit euren Streifenwaagen an
+            die unten angegebene Adresse fahren oder mit den öffentlichen Verkehrsmitteln bis zum Bahnhof Idstein, wo
+            wir euch nach Absprache mit einem Shuttle abholen können. Vor Ort könnt ihr eure Zelte aufbauen bevor ihr
+            euch an die Ermittlungen macht. <b>Der Teilnehmerbeitrag pro Person beträgt 20 €.</b> Falls ihr keine
+            eigenen Zelte mitbringen könnt, könnt ihr uns das im Anmeldeformular mitteilen. Für dringliche Mitteilungen
+            stehen wir euch unter den <a href="../contact.php">Kontaktdaten</a> auf unserer Kontaktseite zur Verfügung.
+        </p>
+    </div>
     <div class="page w-100">
         <h1>Anmeldung</h1>
         <form action="submitted.php" method="post">
@@ -124,12 +135,14 @@
             <h2>Ansprechperson 1</h2>
             <p>
                 <label>Vorname:<a class="text-danger">*</a><br>
-                    <input type="text" id="vorname1" name="vorname1" placeholder="Vorname..." class="form-control" required>
+                    <input type="text" id="vorname1" name="vorname1" placeholder="Vorname..." class="form-control"
+                           required>
                 </label>
             </p>
             <p>
                 <label>Nachname:<a class="text-danger">*</a><br>
-                    <input type="text" id="nachname1" name="nachname1" placeholder="Nachname..." class="form-control" required>
+                    <input type="text" id="nachname1" name="nachname1" placeholder="Nachname..." class="form-control"
+                           required>
                 </label>
             </p>
             <p>
@@ -156,12 +169,14 @@
             <h2>Ansprechperson 2</h2>
             <p>
                 <label>Vorname:<a class="text-danger">*</a><br>
-                    <input type="text" id="vorname2" name="vorname2" placeholder="Vorname..." class="form-control" required>
+                    <input type="text" id="vorname2" name="vorname2" placeholder="Vorname..." class="form-control"
+                           required>
                 </label>
             </p>
             <p>
                 <label>Nachname:<a class="text-danger">*</a><br>
-                    <input type="text" id="nachname2" name="nachname2" placeholder="Nachname..." class="form-control" required>
+                    <input type="text" id="nachname2" name="nachname2" placeholder="Nachname..." class="form-control"
+                           required>
                 </label>
             </p>
             <p>
@@ -181,6 +196,12 @@
                 <label>
                     <input type="checkbox" id="whatsapp2" name="whatsapp2" class="form-check">
                     Füge mich in die WhatsAp-Gruppe hinzu
+                </label>
+            </p>
+            <p>
+                <label>Falls ihr weitere Anmerkungen oder Mitteilungen an uns habt, könnt ihr das gerne hier tun:<br>
+                    <textarea id="anmerkungen" name="anmerkungen" rows="5" class="form-check"
+                              placeholder="Wir bräuchten ein Zelt zum übernachten und einen Shuttle vom Bahnhof..."></textarea>
                 </label>
             </p>
             <p>

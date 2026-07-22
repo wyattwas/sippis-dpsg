@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="style.css">
     <meta name="description" content="Die Roverrunde des DPSG Sankt Martin Idstein">
     <meta name="theme-color" content="#ff4d4d">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -20,7 +21,7 @@
             integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
             crossorigin="anonymous"></script>
 </head>
-<body style="filter: invert()">
+<body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="../index.php"><img src="../assets/rochen_logo-circle.png" alt="Sippis"
                                                      style="max-height: 100px"></a>

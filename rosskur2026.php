@@ -71,6 +71,119 @@
                class="link-button text-white bg-danger">Unser Instagram Profil</a>
         </p>
     </div>
+    <div class="page">
+        <h1>Anmeldung</h1>
+        <form action="submitted.php" method="post">
+            <p>
+            <p>
+                <label>Stamm:<a class="required">*</a><br>
+                    <input type="text" id="stamm" name="stamm" placeholder="Stamm..." required>
+                </label>
+            </p>
+            <p>
+                <label>Anzahl:<a class="required">*</a><br>
+                    <input type="number" id="anzahl" name="anzahl" min="1" required>
+                </label>
+            </p>
+            <p>
+                Als was tretet ihr an:<a class="required">*</a><br>
+                <label>
+                    <input type="radio" id="rover" name="art" value="rover" required>
+                    Rover*innen
+                </label>
+                <label>
+                    <input type="radio" id="leiter" name="art" value="leiter">
+                    Leiter*innen
+                </label>
+            </p>
+            <p>
+                <label>Ankunftszeit:<a class="required">*</a><br>
+                    <input type="time" id="ankunft" name="ankunft" required>
+                </label>
+            </p>
+            <p>
+                Art der Anreise:<a class="required">*</a><br>
+                <label>
+                    <input type="radio" id="auto" name="anreise" value="auto" required>
+                    Auto
+                </label>
+                <label>
+                    <input type="radio" id="bus" name="anreise" value="bus">
+                    Öffis
+                </label>
+            </p>
+            <p>
+                <label>Anzahl der Übernachtenden:<a class="required">*</a><br>
+                    <input type="number" id="schlafen" name="schlafen" required>
+                </label>
+            </p>
+            <p>
+                <label>Anzahl Vegetarier:<br>
+                    <input type="number" id="vegi" name="vegi" min="0">
+                </label>
+            </p>
+            <p>
+                <label>Anzahl Veganer:<br>
+                    <input type="number" id="vegan" name="vegan" min="0">
+                </label>
+            </p>
+            </p>
+            <p>
+            <h2>Ansprechperson 1</h2>
+            <p>
+                <label>Vorname:<a class="required">*</a><br>
+                    <input type="text" id="vorname1" name="vorname1" placeholder="Vorname..." required>
+                </label>
+            </p>
+            <p>
+                <label>Nachname:<a class="required">*</a><br>
+                    <input type="text" id="nachname1" name="nachname1" placeholder="Nachname..." required>
+                </label>
+            </p>
+            <p>
+                <label>Telefonnummer:<a class="required">*</a><br>
+                    <input type="tel" id="tele1" name="tele1" placeholder="+49 123 123456789"
+                           pattern="^\+\d{1,3}\s\d{3}\s\d+$"
+                           required>
+                </label>
+            </p>
+            <p>
+                <label>E-Mail:<a class="required">*</a><br>
+                    <input type="email" id="mail1" name="mail1" placeholder="E-Mail..." required>
+                </label>
+            </p>
+            </p>
+            <p>
+            <h2>Ansprechperson 2</h2>
+            <p>
+                <label>Vorname:<a class="required">*</a><br>
+                    <input type="text" id="vorname2" name="vorname2" placeholder="Vorname..." required>
+                </label>
+            </p>
+            <p>
+                <label>Nachname:<a class="required">*</a><br>
+                    <input type="text" id="nachname2" name="nachname2" placeholder="Nachname..." required>
+                </label>
+            </p>
+            <p>
+                <label>Telefonnummer:<a class="required">*</a><br>
+                    <input type="tel" id="tele2" name="tele2" placeholder="+49 123 123456789"
+                           pattern="^\+\d{1,3}\s\d{3}\s\d+$"
+                           required>
+                </label>
+            </p>
+            <p>
+                <label>E-Mail:<a class="required">*</a><br>
+                    <input type="email" id="mail2" name="mail2" placeholder="E-Mail..." required>
+                </label>
+            </p>
+            </p>
+            <p>
+                <a class="required">*</a> Benötigte Angaben<br>
+            </p>
+            <input type="submit">
+        </form>
+    </div>
 </div>
 </body>
 </html>

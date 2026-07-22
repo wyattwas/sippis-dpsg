@@ -58,28 +58,23 @@
             Nachdem wir im letzten Jahr den ersten Platz, bei der Rosskur in Eschborn geholt haben,
             freuen wir uns, die Rosskur dieses Jahr bei uns ausrichten zu dürfen.<br>
             Vom <b>11.09. bis 13.09.2026</b> dürfen wir euch in Idstein begrüßen.<br>
-            Unter dem Motto "Murder? Mystery!" werden wir euch in, beim Lösen eines spannenden Tatfalls durch Idsteiner
-            Land führen.<br>
-            Die Anmeldung und weitere Informationen folgen. Um nichts zu verpassen, folgt uns gerne auf Insta.
+            Unter dem Motto "Murder? Mystery!" werden wir euch, beim Lösen eines spannenden Tatfalls durch Idsteiner
+            Land führen.
         </p>
         <p>
             <a href="../assets/rosskur.ics"
                class="link-button text-white bg-danger">In den Kalender eintragen</a>
         </p>
-        <p>
-            <a href="https://www.instagram.com/sippis_idstein"
-               class="link-button text-white bg-danger">Unser Instagram Profil</a>
-        </p>
     </div>
     <div class="page">
         <h1>Informationen an alle Kriminalpolizisten</h1>
         <p>
-            Die Ermittlungen werden <b>am 11.09.2026 ab 16:00 Uhr</b> aufgenommen. Ihr könnt mit euren Streifenwaagen an
-            die unten angegebene Adresse fahren oder mit den öffentlichen Verkehrsmitteln bis zum Bahnhof Idstein, wo
-            wir euch nach Absprache mit einem Shuttle abholen können. Vor Ort könnt ihr eure Zelte aufbauen bevor ihr
-            euch an die Ermittlungen macht. <b>Der Teilnehmerbeitrag pro Person beträgt 20 €.</b> Falls ihr keine
-            eigenen Zelte mitbringen könnt, könnt ihr uns das im Anmeldeformular mitteilen. Für dringliche Mitteilungen
-            stehen wir euch unter den <a href="../contact.php">Kontaktdaten</a> auf unserer Kontaktseite zur Verfügung.
+            Ihr dürft <b>freitags ab 16:00 Uhr</b> anreisen. Ihr könnt mit euren Streifenwaagen an die unten angegebene
+            Adresse fahren oder mit den öffentlichen Verkehrsmitteln bis zum Bahnhof Idstein, wo wir euch nach Absprache
+            mit einem Shuttle abholen können. Vor Ort könnt ihr eure Zelte aufbauen bevor ihr euch an die Ermittlungen
+            macht. <b>Der Teilnehmerbeitrag pro Person beträgt 20 €.</b> Falls ihr keine eigenen Zelte mitbringen könnt,
+            könnt ihr uns das im Anmeldeformular mitteilen. Für dringliche Mitteilungen stehen wir euch unter den
+            <a href="../contact.php">Kontaktdaten</a> auf unserer Kontaktseite zur Verfügung.
         </p>
         <p>
             <iframe class="border-radius-8 gray-border w-100 height-300"

@@ -81,6 +81,17 @@
             eigenen Zelte mitbringen könnt, könnt ihr uns das im Anmeldeformular mitteilen. Für dringliche Mitteilungen
             stehen wir euch unter den <a href="../contact.php">Kontaktdaten</a> auf unserer Kontaktseite zur Verfügung.
         </p>
+        <p>
+            <iframe class="border-radius-8 gray-border w-100 height-300"
+                    src="https://www.openstreetmap.org/export/embed.html?bbox=8.278525471687319%2C50.21657514126309%2C8.280939459800722%2C50.21821762337608&amp;layer=mapnik&amp;marker=50.21739638938805%2C8.279732465744019"></iframe>
+            <br>
+            <small class="padding-3">
+                <a class="link-button text-white bg-danger"
+                   href="https://maps.app.goo.gl/agtKxfj3yg2UY85k8">
+                    Größere Karte zeigen
+                </a>
+            </small>
+        </p>
     </div>
     <div class="page w-100">
         <h1>Anmeldung</h1>

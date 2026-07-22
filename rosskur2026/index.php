@@ -73,8 +73,7 @@
     </div>
     <div class="page w-100">
         <h1>Anmeldung</h1>
-        <form action="../submitted.php" method="post">
-            <p>
+        <form action="submitted.php" method="post">
             <p>
                 <label>Stamm:<a class="text-danger">*</a><br>
                     <input type="text" id="stamm" name="stamm" placeholder="Stamm..." class="form-control" required>
@@ -88,11 +87,11 @@
             <p>
                 Als was tretet ihr an:<a class="text-danger">*</a><br>
                 <label>
-                    <input type="radio" id="rover" name="art" value="rover" class="form-control" required>
+                    <input type="radio" id="rover" name="art" value="rover" required>
                     Rover*innen
                 </label>
                 <label>
-                    <input type="radio" id="leiter" name="art" value="leiter" class="form-control">
+                    <input type="radio" id="leiter" name="art" value="leiter">
                     Leiter*innen
                 </label>
             </p>
@@ -104,16 +103,16 @@
             <p>
                 Art der Anreise:<a class="text-danger">*</a><br>
                 <label>
-                    <input type="radio" id="auto" name="anreise" value="auto" class="form-control" required>
+                    <input type="radio" id="auto" name="anreise" value="auto" required>
                     Auto
                 </label>
                 <label>
-                    <input type="radio" id="bus" name="anreise" value="bus" class="form-control">
+                    <input type="radio" id="bus" name="anreise" value="bus">
                     Öffis
                 </label>
             </p>
             <p>
-                <label>Anzahl der Übernachtenden:<a class="text-danger">*</a><br>
+                <label>Wie viele von euch übernachten von Samstag auf Sonntag:<a class="text-danger">*</a><br>
                     <input type="number" id="schlafen" name="schlafen" class="form-control" required>
                 </label>
             </p>
@@ -122,8 +121,6 @@
                     <input type="text" id="vegi" name="vegi" class="form-control">
                 </label>
             </p>
-            </p>
-            <p>
             <h2>Ansprechperson 1</h2>
             <p>
                 <label>Vorname:<a class="text-danger">*</a><br>
@@ -144,12 +141,18 @@
                 </label>
             </p>
             <p>
-                <label>E-Mail:<a class="text-danger">*</a><br>
-                    <input type="email" id="mail1" name="mail1" placeholder="E-Mail..." class="form-control" required>
+                <label>E-Mail:<br>
+                    <input type="email" id="mail1" name="mail1" placeholder="E-Mail..." class="form-control">
                 </label>
             </p>
-            </p>
             <p>
+                Wir werden eine WhatsApp-Gruppe erstellen, um während der Veranstaltung wichtige Informationen mit euch
+                teilen zu können. Bitte markiert mindestens eine Ansprechperson dafür.
+                <label>
+                    <input type="checkbox" id="whatsapp1" name="whatsapp1" class="form-check">
+                    Füge mich in die WhatsAp-Gruppe hinzu
+                </label>
+            </p>
             <h2>Ansprechperson 2</h2>
             <p>
                 <label>Vorname:<a class="text-danger">*</a><br>
@@ -170,10 +173,15 @@
                 </label>
             </p>
             <p>
-                <label>E-Mail:<a class="text-danger">*</a><br>
-                    <input type="email" id="mail2" name="mail2" placeholder="E-Mail..." class="form-control" required>
+                <label>E-Mail:<br>
+                    <input type="email" id="mail2" name="mail2" placeholder="E-Mail..." class="form-control">
                 </label>
             </p>
+            <p>
+                <label>
+                    <input type="checkbox" id="whatsapp2" name="whatsapp2" class="form-check">
+                    Füge mich in die WhatsAp-Gruppe hinzu
+                </label>
             </p>
             <p>
                 <a class="text-danger">*</a> Benötigte Angaben<br>

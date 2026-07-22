@@ -28,7 +28,8 @@ $money_amount = 1200
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"><img src="assets/rochen_logo-circle.png" alt="Sippis" style="max-height: 100px"></a>
+    <a class="navbar-brand" href="#"><img src="assets/rochen_logo-circle.png" alt="Sippis"
+                                          style="max-height: 100px"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -54,12 +55,38 @@ $money_amount = 1200
 
 <div class="content">
     <div class="page">
+        <h1>Ein Mordfall?</h1>
+        <p>
+            Die Anmeldung zur Rosskur 2026 ist geöffnet. Vom 11.09. bis zum 13.09.2026 nehmen wir euch mit auf einen
+            spannenden Mordfall. Meldet euch an!
+        </p>
+        <p>
+            <a href="rosskur2026/index.php"
+               class="link-button text-white bg-danger">Zur Anmeldung</a>
+        </p>
+    </div>
+    <div class="page">
+        <h1>Eh?</h1>
+        <p>
+            Wir haben es geschafft! Dank unserer harten Arbeit und eurer großzügigen Unterstützung konnten wir uns
+            unseren Traum erfüllen. Vom 24.06. bis zum 08.07.2026 waren wir in Kanada. Mehr dazu könnt ihr auf unserer
+            Kanada Seite lesen.
+        </p>
+        <p>
+            <a href="canada.php"
+               class="link-button text-white bg-danger">Kanada Blog</a>
+        </p>
+    </div>
+    <div class="page">
         <h1>Gewonnen!</h1>
         <p>
             Bei der Rosskurs 2025 in Eschborn haben wir richtig abgeliefert und den 1. Platz gemacht.<br>
-            22 Stunden waren wir unterwegs für etwas unter 50 km. An jeder der zwölf Stationen haben wir unser bestes gegeben und es hat sich gelohnt.<br>
+            22 Stunden waren wir unterwegs für etwas unter 50 km. An jeder der zwölf Stationen haben wir unser bestes
+            gegeben und es hat sich gelohnt.<br>
             Unter dem Motto Mario Kart haben wir viele tolle Aufgaben gelöst und ordentlich Punkte abgestaubt.<br>
-            Vielen Dank an <a class="text-danger" href="https://www.instagram.com/dpsg_eschborn/">@dpsg_eschborn</a> fürs ausrichten, es hat super viel Spaß gemacht. Natürlich haben wir uns auch gefreut gehen die anderen acht Teams anzutreten und hoffen viele von euch nächstes Jahr in Idstein begrüßen zu dürfen.
+            Vielen Dank an <a class="text-danger" href="https://www.instagram.com/dpsg_eschborn/">@dpsg_eschborn</a>
+            fürs ausrichten, es hat super viel Spaß gemacht. Natürlich haben wir uns auch gefreut gehen die anderen acht
+            Teams anzutreten und hoffen viele von euch nächstes Jahr in Idstein begrüßen zu dürfen.
         </p>
         <p>
             <a href="https://www.instagram.com/p/DO75XWwAir-/"
@@ -75,9 +102,11 @@ $money_amount = 1200
         <h1>Halbzeit</h1>
         <p>
             In einem dreiviertel Jahr wollen wir gerne nach Kanada fliegen.<br>
-            So langsam wird es Zeit für uns die Flüge zu buchen und genauere Details zu planen. Noch sind wir aber nicht ganz an unserem finanziellen Ziel angekommen.<br>
+            So langsam wird es Zeit für uns die Flüge zu buchen und genauere Details zu planen. Noch sind wir aber nicht
+            ganz an unserem finanziellen Ziel angekommen.<br>
             Daher bieten wir weiterhin unsere Hilfe an.<br>
-            Wenn ihr Hilfe mit Gartenarbeit, Renovierung, Umzug, PC, o.Ä. braucht und uns gerne unterstützen möchtet, meldet euch gerne bei uns.
+            Wenn ihr Hilfe mit Gartenarbeit, Renovierung, Umzug, PC, o.Ä. braucht und uns gerne unterstützen möchtet,
+            meldet euch gerne bei uns.
         </p>
         <p>
             E-Mail: <a class="text-danger" href="mailto:kontakt@sippis-dpsg.de">kontakt@sippis-dpsg.de</a><br>
@@ -85,7 +114,7 @@ $money_amount = 1200
         </p>
         <p>
             <a href="canada.php"
-            class="link-button text-white bg-danger">Mehr Info</a>
+               class="link-button text-white bg-danger">Mehr Info</a>
         </p>
         <p>
             <img src="assets/document(3).png" alt="Rover auf großer Fahrt"
@@ -117,7 +146,8 @@ $money_amount = 1200
         <p>
             Wir haben einige Möglichkeiten dir mit Gartenarbeit zu helfen.<br>
             Unser Stamm verfügt über einen Anhänger mit dem Wir ca. 4 cm³ transportieren können.<br>
-            Wir haben auch einiges an Gartenwerkzeug was wir für unsere Arbeit mitbringen können, fragt im Zweifel gerne nochmal nach.
+            Wir haben auch einiges an Gartenwerkzeug was wir für unsere Arbeit mitbringen können, fragt im Zweifel gerne
+            nochmal nach.
         </p>
         <p>
             <a href="https://www.instagram.com/p/DG8yxo9OhE1/"

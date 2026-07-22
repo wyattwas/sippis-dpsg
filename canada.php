@@ -1,12 +1,3 @@
-<?php
-require('database.php');
-
-$money_overall = 11000;
-
-$money_amount_query = "SELECT SUM(geld) as geld FROM auftrag WHERE status = 'erledigt'";
-$stmt = PDO->query($money_amount_query);
-$money_amount = $stmt->fetchAll(PDO::FETCH_ASSOC);
-?>
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -77,66 +68,12 @@ $money_amount = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <span class="sr-only">Next</span>
             </a>
         </div>
+        <h2>Wir haben es geschafft!</h2>
         <p>
-            Die Zeit unserer Roverrunde kommt zum Ende.
-            Als Abschlussfahrt wollen wir nochmal was Großes machen.
-            Ein letztes Sommerlager mit unserer Runde.
-            Wir wollen nach Kanada!
+            Durch unsere harte Arbeit und eure große Unterstützung konnten wir uns unser Sommerlager in Kanada 2026
+            ermöglichen. Es waren zwei wunderschöne Wochen. Auf unserem Instagram findet ihr eine Reihe an Bildern aus
+            unserem Lager. Wir bedanken uns vielmals für die Unterstützung :)
         </p>
-        <p>
-            Ein letztes großes Lager in Kanada.
-            Zwei Wochen Hiken in der Natur von British Columbia.
-            Rund um Vancouver wollen wir uns umsehen.
-            Den nordamerikanischen Kontinent kennenlernen.
-        </p>
-        <p>
-            Leider ist der Weg dort hin nicht ganz einfach und besonders nicht ganz günstig.
-            Mit Flügen, Verpflegung und Unternehmen ist es ein teures Unterfangen.
-            Um es aber trotzdem möglich zu machen, sind wir bereit für unser Ziel zu arbeiten.
-            Wir bieten unsere Hilfe und bitten euch um Unterstützung.
-        </p>
-        <p>
-            Über 1 1/2 Jahre erarbeiten wir uns unser Ziel.
-            Wenn ihr Hilfe braucht bei Gartenarbeit, Umzug, Renovierung, Einkauf, im Alltag,
-            aber auch mit dem Computer, Drucker oder komplexeren IT-Themen, wie Docker, Linux oder
-            anderes,
-            meldet euch gerne bei uns.
-            Wir sind telefonisch, per Messenger, über Social Media oder per E-Mail erreichbar.
-            Wir helfen euch und ihr helft uns unser Ziel zu erreichen.
-        </p>
-        <h2>So viel Geld wurde uns schon gespendet</h2>
-        <p>
-            <?php foreach ($money_amount as $money): ?>
-                <progress id="file" value="<?= 100 / $money_overall * $money['geld'] ?>"
-                          max="100"> <?= $money['geld'] ?>€
-                </progress> <?= $money['geld'] ?>€ / <?= $money_overall ?>€
-            <?php endforeach; ?>
-        </p>
-        <h2>Kontakt</h2>
-        <p>
-            E-Mail: <a class="text-danger" href="mailto:kontakt@sippis-dpsg.de">kontakt@sippis-dpsg.de</a><br>
-            Telefon, WhatsApp, Signal: <a class="text-danger" href="tel:+4917655233953">+49 176 55233953</a><br>
-            Instagram: <a class="text-danger" href="https://www.instagram.com/sippis_idstein">@sippis_idstein</a><br>
-        </p>
-        <p>
-            <a href="contact.php"
-               class="link-button text-white bg-danger">Kontakt Seite</a>
-        </p>
-    </div>
-    <div class="page w-100">
-        <h2>Anfrage</h2>
-        <form action="submitted.php" method="post">
-            <label for="name">Name</label>
-            <input id="name" name="name" type="text" placeholder="John Doe" class="form-control" required><br>
-            <label for="mail">E-Mail</label>
-            <input id="mail" name="mail" type="email" placeholder="john.doe@example.com" class="form-control"
-                   required><br>
-            <label for="content">Inhalt</label>
-            <textarea id="content" name="content" placeholder="Ich hätte gerne eure Hilfe..." rows="5"
-                      class="form-control"
-                      required></textarea><br>
-            <input name="submit" type="submit" value="Absenden" class="btn btn-primary btn-danger border-radius-8">
-        </form>
     </div>
 </div>
 </body>

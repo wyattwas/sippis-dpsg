@@ -24,3 +24,8 @@ body {
         filter: invert();
     }
 }
+
+.needed::after {
+    content: " *";
+    color: red;
+}

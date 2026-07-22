@@ -93,46 +93,46 @@
         <h1>Anmeldung</h1>
         <form action="submitted.php" method="post">
             <p>
-                <label for="stamm">Stamm:<a class="text-danger">*</a></label>
+                <label for="stamm" class="needed">Stamm:</label>
                 <input type="text" id="stamm" name="stamm" placeholder="Stamm..." class="form-control" required><br>
 
-                <label for="anzahl">Anzahl:<a class="text-danger">*</a></label>
+                <label for="anzahl" class="needed">Anzahl:</label>
                 <input type="number" id="anzahl" name="anzahl" min="1" class="form-control" required><br>
 
-                Als was tretet ihr an:<a class="text-danger">*</a>
+                <span class="needed">Als was tretet ihr an:</span>
                 <input type="radio" id="rover" name="art" value="rover" required>
                 <label for="rover">Rover*innen</label>
                 <input type="radio" id="leiter" name="art" value="leiter">
                 <label for="leiter">Leiter*innen</label><br>
 
-                <label for="ankunft">Ankunftszeit:<a class="text-danger">*</a></label>
+                <label for="ankunft" class="needed">Ankunftszeit:</label>
                 <input type="time" id="ankunft" name="ankunft" class="form-control" required><br>
 
-                Art der Anreise:<a class="text-danger">*</a>
+                <span class="needed">Art der Anreise:</span>
                 <input type="radio" id="auto" name="anreise" value="auto" required>
                 <label for="auto">Auto</label>
                 <input type="radio" id="bus" name="anreise" value="bus">
                 <label for="bus">Öffis</label><br>
 
-                <label for="schlafen">
-                    Wie viele von euch übernachten von Samstag auf Sonntag:<a class="text-danger">*</a>
-                </label>
+                <label for="schlafen" class="needed">Wie viele von euch übernachten von Samstag auf Sonntag:</label>
                 <input type="number" id="schlafen" name="schlafen" class="form-control" required><br>
 
-                <label for="vegi">Informationen zu Allergien, Unverträglichkeiten, vegetarisch/vegan, etc.:</label>
+                <label for="vegi" class="needed">
+                    Informationen zu Allergien, Unverträglichkeiten, vegetarisch/vegan, etc.:
+                </label>
                 <input type="text" id="vegi" name="vegi" class="form-control"><br>
             </p>
 
             <h2>Ansprechperson 1</h2>
             <p>
-                <label for="vorname1">Vorname:<a class="text-danger">*</a></label>
+                <label for="vorname1" class="needed">Vorname:</label>
                 <input type="text" id="vorname1" name="vorname1" placeholder="Vorname..." class="form-control" required><br>
 
-                <label for="nachname1">Nachname:<a class="text-danger">*</a></label>
+                <label for="nachname1" class="needed">Nachname:</label>
                 <input type="text" id="nachname1" name="nachname1" placeholder="Nachname..." class="form-control"
                        required><br>
 
-                <label for="tele1">Telefonnummer:<a class="text-danger">*</a></label>
+                <label for="tele1" class="needed">Telefonnummer:</label>
                 <input type="tel" id="tele1" name="tele1" placeholder="+49 123 123456789"
                        pattern="^\+\d{1,3}\s\d{3}\s\d+$"
                        class="form-control"
@@ -149,14 +149,14 @@
 
             <h2>Ansprechperson 2</h2>
             <p>
-                <label for="vorname2">Vorname:<a class="text-danger">*</a></label>
+                <label for="vorname2" class="needed">Vorname:</label>
                 <input type="text" id="vorname2" name="vorname2" placeholder="Vorname..." class="form-control" required><br>
 
-                <label for="nachname2">Nachname:<a class="text-danger">*</a></label>
+                <label for="nachname2" class="needed">Nachname:</label>
                 <input type="text" id="nachname2" name="nachname2" placeholder="Nachname..." class="form-control"
                        required><br>
 
-                <label for="tele2">Telefonnummer:<a class="text-danger">*</a></label>
+                <label for="tele2" class="needed">Telefonnummer:</label>
                 <input type="tel" id="tele2" name="tele2" placeholder="+49 123 123456789"
                        pattern="^\+\d{1,3}\s\d{3}\s\d+$"
                        class="form-control"
@@ -175,7 +175,8 @@
                       placeholder="Wir bräuchten ein Zelt zum übernachten und einen Shuttle vom Bahnhof..."></textarea><br>
 
             <p><a class="text-danger">*</a> Benötigte Angaben</p>
-            <input name="submit" type="submit" value="Anmeldung absenden" class="btn btn-primary btn-danger border-radius-8">
+            <input name="submit" type="submit" value="Anmeldung absenden"
+                   class="btn btn-primary btn-danger border-radius-8">
         </form>
     </div>
 </div>

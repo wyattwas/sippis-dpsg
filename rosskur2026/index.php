@@ -71,60 +71,55 @@
                class="link-button text-white bg-danger">Unser Instagram Profil</a>
         </p>
     </div>
-    <div class="page">
+    <div class="page w-100">
         <h1>Anmeldung</h1>
         <form action="../submitted.php" method="post">
             <p>
             <p>
                 <label>Stamm:<a class="text-danger">*</a><br>
-                    <input type="text" id="stamm" name="stamm" placeholder="Stamm..." required>
+                    <input type="text" id="stamm" name="stamm" placeholder="Stamm..." class="form-control" required>
                 </label>
             </p>
             <p>
                 <label>Anzahl:<a class="text-danger">*</a><br>
-                    <input type="number" id="anzahl" name="anzahl" min="1" required>
+                    <input type="number" id="anzahl" name="anzahl" min="1" class="form-control" required>
                 </label>
             </p>
             <p>
                 Als was tretet ihr an:<a class="text-danger">*</a><br>
                 <label>
-                    <input type="radio" id="rover" name="art" value="rover" required>
+                    <input type="radio" id="rover" name="art" value="rover" class="form-control" required>
                     Rover*innen
                 </label>
                 <label>
-                    <input type="radio" id="leiter" name="art" value="leiter">
+                    <input type="radio" id="leiter" name="art" value="leiter" class="form-control">
                     Leiter*innen
                 </label>
             </p>
             <p>
                 <label>Ankunftszeit:<a class="text-danger">*</a><br>
-                    <input type="time" id="ankunft" name="ankunft" required>
+                    <input type="time" id="ankunft" name="ankunft" class="form-control" required>
                 </label>
             </p>
             <p>
                 Art der Anreise:<a class="text-danger">*</a><br>
                 <label>
-                    <input type="radio" id="auto" name="anreise" value="auto" required>
+                    <input type="radio" id="auto" name="anreise" value="auto" class="form-control" required>
                     Auto
                 </label>
                 <label>
-                    <input type="radio" id="bus" name="anreise" value="bus">
+                    <input type="radio" id="bus" name="anreise" value="bus" class="form-control">
                     Öffis
                 </label>
             </p>
             <p>
                 <label>Anzahl der Übernachtenden:<a class="text-danger">*</a><br>
-                    <input type="number" id="schlafen" name="schlafen" required>
+                    <input type="number" id="schlafen" name="schlafen" class="form-control" required>
                 </label>
             </p>
             <p>
-                <label>Anzahl Vegetarier:<br>
-                    <input type="number" id="vegi" name="vegi" min="0">
-                </label>
-            </p>
-            <p>
-                <label>Anzahl Veganer:<br>
-                    <input type="number" id="vegan" name="vegan" min="0">
+                <label>Informationen zu Allergien, Unverträglichkeiten, vegetarisch/vegan, etc.:<br>
+                    <input type="text" id="vegi" name="vegi" class="form-control">
                 </label>
             </p>
             </p>
@@ -132,24 +127,25 @@
             <h2>Ansprechperson 1</h2>
             <p>
                 <label>Vorname:<a class="text-danger">*</a><br>
-                    <input type="text" id="vorname1" name="vorname1" placeholder="Vorname..." required>
+                    <input type="text" id="vorname1" name="vorname1" placeholder="Vorname..." class="form-control" required>
                 </label>
             </p>
             <p>
                 <label>Nachname:<a class="text-danger">*</a><br>
-                    <input type="text" id="nachname1" name="nachname1" placeholder="Nachname..." required>
+                    <input type="text" id="nachname1" name="nachname1" placeholder="Nachname..." class="form-control" required>
                 </label>
             </p>
             <p>
                 <label>Telefonnummer:<a class="text-danger">*</a><br>
                     <input type="tel" id="tele1" name="tele1" placeholder="+49 123 123456789"
                            pattern="^\+\d{1,3}\s\d{3}\s\d+$"
+                           class="form-control"
                            required>
                 </label>
             </p>
             <p>
                 <label>E-Mail:<a class="text-danger">*</a><br>
-                    <input type="email" id="mail1" name="mail1" placeholder="E-Mail..." required>
+                    <input type="email" id="mail1" name="mail1" placeholder="E-Mail..." class="form-control" required>
                 </label>
             </p>
             </p>
@@ -157,31 +153,32 @@
             <h2>Ansprechperson 2</h2>
             <p>
                 <label>Vorname:<a class="text-danger">*</a><br>
-                    <input type="text" id="vorname2" name="vorname2" placeholder="Vorname..." required>
+                    <input type="text" id="vorname2" name="vorname2" placeholder="Vorname..." class="form-control" required>
                 </label>
             </p>
             <p>
                 <label>Nachname:<a class="text-danger">*</a><br>
-                    <input type="text" id="nachname2" name="nachname2" placeholder="Nachname..." required>
+                    <input type="text" id="nachname2" name="nachname2" placeholder="Nachname..." class="form-control" required>
                 </label>
             </p>
             <p>
                 <label>Telefonnummer:<a class="text-danger">*</a><br>
                     <input type="tel" id="tele2" name="tele2" placeholder="+49 123 123456789"
                            pattern="^\+\d{1,3}\s\d{3}\s\d+$"
+                           class="form-control"
                            required>
                 </label>
             </p>
             <p>
                 <label>E-Mail:<a class="text-danger">*</a><br>
-                    <input type="email" id="mail2" name="mail2" placeholder="E-Mail..." required>
+                    <input type="email" id="mail2" name="mail2" placeholder="E-Mail..." class="form-control" required>
                 </label>
             </p>
             </p>
             <p>
                 <a class="text-danger">*</a> Benötigte Angaben<br>
             </p>
-            <input type="submit">
+            <input name="submit" type="submit" value="Absenden" class="btn btn-primary btn-danger border-radius-8">
         </form>
     </div>
 </div>

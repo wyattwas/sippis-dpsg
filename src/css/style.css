@@ -349,21 +349,18 @@ textarea {
     transform: translate(0, -7px) rotate(45deg);
 }
 
-.content {
+main, .content {
     margin: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
-    & .page {
-        margin: 20px;
-    }
 }
 
 .page {
     display: flex;
     flex-direction: column;
     max-width: 500px;
+    margin: 20px;
 
     a {
         color: #007bff;

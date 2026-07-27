@@ -25,7 +25,7 @@
             mit einem Shuttle abholen können. Vor Ort könnt ihr eure Zelte aufbauen bevor ihr euch an die Ermittlungen
             macht. <b>Der Teilnehmerbeitrag pro Person beträgt 20 €.</b> Falls ihr keine eigenen Zelte mitbringen könnt,
             könnt ihr uns das im Anmeldeformular mitteilen. Für dringliche Mitteilungen stehen wir euch unter den
-            <a href="../../contact.php">Kontaktdaten</a> auf unserer Kontaktseite zur Verfügung.
+            <a href="/contact">Kontaktdaten</a> auf unserer Kontaktseite zur Verfügung.
         </p>
         <p>
             <iframe class="border-radius-8 gray-border w-100 height-300"

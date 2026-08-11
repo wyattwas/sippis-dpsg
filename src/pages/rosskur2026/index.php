@@ -24,8 +24,9 @@
             Adresse fahren oder mit den öffentlichen Verkehrsmitteln bis zum Bahnhof Idstein, wo wir euch nach Absprache
             mit einem Shuttle abholen können. Vor Ort könnt ihr eure Zelte aufbauen bevor ihr euch an die Ermittlungen
             macht. <b>Der Teilnehmerbeitrag pro Person beträgt 20 €.</b> Falls ihr keine eigenen Zelte mitbringen könnt,
-            könnt ihr uns das im Anmeldeformular mitteilen. Für dringliche Mitteilungen stehen wir euch unter den
-            <a href="/contact">Kontaktdaten</a> auf unserer Kontaktseite zur Verfügung.
+            könnt ihr uns das im Anmeldeformular mitteilen. Der Anmeldeschluss ist am 1. September. Für dringliche
+            Mitteilungen stehen wir euch unter den <a href="/contact">Kontaktdaten</a> auf unserer Kontaktseite zur
+            Verfügung.
         </p>
         <p>
             <iframe class="border-radius-8 gray-border w-100 height-300"

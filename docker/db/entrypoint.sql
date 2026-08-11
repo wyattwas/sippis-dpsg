@@ -19,5 +19,6 @@ create table if not exists rosskur
     tele2       text not null,
     mail2       text null,
     whatsapp2   text null,
-    anmerkungen text null
+    anmerkungen text null,
+    code        text null
 );

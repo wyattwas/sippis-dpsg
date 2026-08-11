@@ -125,6 +125,9 @@
             <textarea id="anmerkungen" name="anmerkungen" rows="5" class="form-control"
                       placeholder="Wir bräuchten ein Zelt zum übernachten und einen Shuttle vom Bahnhof..."></textarea><br>
 
+            <label for="code">Code:</label>
+            <input type="text" id="code" name="code" class="form-control"><br>
+
             <p><a class="text-danger">*</a> Benötigte Angaben</p>
             <input name="submit" type="submit" value="Anmeldung absenden"
                    class="btn btn-primary btn-danger border-radius-8">

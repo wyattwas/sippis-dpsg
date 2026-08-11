@@ -10,6 +10,7 @@ if (isset($_POST["submit"])) {
     $schlafen = $_POST["schlafen"];
     $vegi = $_POST["vegi"] ?? null;
     $anmerkungen = $_POST["anmerkungen"];
+    $code = $_POST["code"];
 
     $vorname1 = $_POST["vorname1"];
     $nachname1 = $_POST["nachname1"];
@@ -25,11 +26,11 @@ if (isset($_POST["submit"])) {
 
     $stmt = PDO->prepare("
         INSERT INTO rosskur (
-                  stamm, anzahl, art, ankunft, anreise, schlafen, vegi, anmerkungen,
+                  stamm, anzahl, art, ankunft, anreise, schlafen, vegi, anmerkungen, code,
                   vorname1, nachname1, tele1, mail1, whatsapp1,
                   vorname2, nachname2, tele2, mail2, whatsapp2
         ) VALUES (
-                  :stamm, :anzahl, :art, :ankunft, :anreise, :schlafen, :vegi, :anmerkungen,
+                  :stamm, :anzahl, :art, :ankunft, :anreise, :schlafen, :vegi, :anmerkungen, :code,
                   :vorname_one, :nachname_one, :tele_one, :mail_one, :whatsapp_one,
                   :vorname_two, :nachname_two, :tele_two, :mail_two, :whatsapp_two
         )");
@@ -43,6 +44,7 @@ if (isset($_POST["submit"])) {
             ':schlafen' => $schlafen,
             ':vegi' => $vegi,
             ':anmerkungen' => $anmerkungen,
+            ':code' => $code,
 
             ':vorname_one' => $vorname1,
             ':nachname_one' => $nachname1,

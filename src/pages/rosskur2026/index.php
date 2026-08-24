@@ -83,7 +83,8 @@
                 <input type="text" id="nachname1" name="nachname1" placeholder="Nachname..." class="form-control"
                        required><br>
 
-                <label for="tele1" class="needed">Telefonnummer:</label>
+                <label for="tele1" class="needed">Telefonnummer:</label><br>
+                <b class="text-danger">Auf Format achten! +49 123 123456789</b>
                 <input type="tel" id="tele1" name="tele1" placeholder="+49 123 123456789"
                        pattern="^\+\d{1,3}\s\d{3}\s\d+$"
                        class="form-control"
@@ -107,7 +108,8 @@
                 <input type="text" id="nachname2" name="nachname2" placeholder="Nachname..." class="form-control"
                        required><br>
 
-                <label for="tele2" class="needed">Telefonnummer:</label>
+                <label for="tele2" class="needed">Telefonnummer:</label><br>
+                <b class="text-danger">Auf Format achten! +49 123 123456789</b>
                 <input type="tel" id="tele2" name="tele2" placeholder="+49 123 123456789"
                        pattern="^\+\d{1,3}\s\d{3}\s\d+$"
                        class="form-control"

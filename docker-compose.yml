@@ -1,7 +1,6 @@
 services:
-  php:
+  php-dev:
     build: docker/php
-    container_name: php-dev
     ports:
       - "8080:80"
     volumes:
@@ -11,18 +10,15 @@ services:
         required: true
     restart: unless-stopped
     depends_on:
-      - db
+      - db-dev
 
-  db:
+  db-dev:
     image: mariadb:latest
-    container_name: db-dev
     environment:
       MARIADB_DATABASE: ${DB_NAME}
       MARIADB_USER: ${DB_USER}
       MARIADB_PASSWORD: ${DB_PASSWORD}
       MARIADB_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
-    ports:
-      - "3306:3306"
     volumes:
       - db-data:/var/lib/mysql
       - ./docker/db/entrypoint.sql:/docker-entrypoint-initdb.d/1.sql
